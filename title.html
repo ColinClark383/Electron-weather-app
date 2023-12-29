@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Weather App</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div class = "title">
+            <h1>Weather App</h1>
+            <p>welcome!</p>
+        </div>
+        <img
+            src = "https://cdn-icons-png.flaticon.com/512/3767/3767036.png"
+            alt= "weather picture"
+            loading="lazy"
+            class="title-pic"
+            />
+        <div class = "options-container">
+            <div class = option>
+                <h3>new user?</h3>
+                <p>learn how to use!</p>
+                <a href="about.html">how to use</a>
+            </div>
+            <div class = option>
+                <h3>reset api key</h3>
+                <p>reset your api key</p>
+                <button class="reset" id="reset">reset key</button>
+            </div>
+            <div class="option">
+                <h3>returning?</h3>
+                <p>welcome back!</p>
+                <input type="text" id="api-in">
+                <button class="submit" id="submit">submit key</button>
+                <p class="error-api" id="error-api">error: API key invalid!<br>Check API key and internet connection!</p>
+            </div>
+        </div>
+        <script src="title.js"></script>
+    </body>
+</html>

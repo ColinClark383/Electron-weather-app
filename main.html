@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Weather App - help</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="sidebar">
+                <div class="sidebar-content">
+                </div>
+            </div>
+            <div class = "content">
+                <div class="title">
+                <h1 id="city-name">Enter/Select a city!</h1>
+                <a href="title.html">back to welcome</a>
+                <h3 id="city-temp">Temperature: </h3>
+                <h3 id="city-desc">Description: </h3>
+                <img
+                src = "https://cdn-icons-png.flaticon.com/512/3767/3767036.png"
+                alt= "weather picture"
+                loading="lazy"
+                class="weather-pic"
+                id="city-pic"
+                />
+                </div>
+                <div class="city-manage">
+                <input type="text" id="city-in">
+                <button id="add-button">add city</button>
+                <br>
+                <button id="remove-button">remove recent city</button>
+                <p class="error-city" id="error-message">Error: Invalid City!<br>Please check City name and try again!</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
