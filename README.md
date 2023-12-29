@@ -7,7 +7,6 @@ Welcome to the Electron Weather App! This application provides a simple and user
 ### Features
 
 - **Current Weather:** Get real-time information about the current weather conditions.
-- **Forecast:** View a 5-day weather forecast to plan your activities.
 - **Location-based:** Enter the location you're interested in and get accurate weather details.
 
 ## Installation
